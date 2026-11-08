@@ -1,31 +1,51 @@
 # EduSearch
-# PaperFinder — Free & Legal Scientific Paper Search
 
-**PaperFinder** helps students and researchers from developing countries get instant access to millions of **100% legal open-access** scientific papers.
+> 🚧 **Work in progress** — this project is in the planning stage. The code has not been published yet.
 
-No Sci-Hub. No paywalls. No login. No tracking.
+EduSearch is a planned web app that helps students and researchers — especially in developing countries — find **free and legal** open-access scientific papers in one place.
 
-### Features
-- Search by title, author, DOI
-- Instant PDF download (only from legal sources: Unpaywall, CORE, DOAJ, arXiv, PubMed Central)
-- Works offline after first load
-- Multilingual (English + Russian + more coming)
-- Fully accessible (keyboard navigation, screen readers)
+No paywalls, no login, no tracking — and only legal sources.
 
-### Tech Stack
+## Planned features
+
+- Search by title, author or DOI
+- Direct PDF links from legal open-access sources: [Unpaywall](https://unpaywall.org), [CORE](https://core.ac.uk), [DOAJ](https://doaj.org), [arXiv](https://arxiv.org), [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/)
+- Works offline after the first load
+- Multilingual interface (English and Russian first)
+- Accessible: full keyboard navigation and screen-reader support
+
+## Planned tech stack
+
 - React + Vite
 - Tailwind CSS
-- Deployed on Vercel / Netlify / Railway
+- Hosting on Vercel or Netlify
 
-### Live Demo
-https://paperfinder.vercel.app (замени на свою ссылку после деплоя)
+## Status / roadmap
 
-### Demo Video
-https://youtu.be/xxx (или просто вставь любой короткий Loom/YouTube)
+- [x] Idea and feature list
+- [ ] Search UI prototype
+- [ ] Connect to the Unpaywall / CORE APIs
+- [ ] First public deploy
 
-### Deployment
+## Contributing
+
+Ideas and feedback are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## License
+
+[MIT](LICENSE)
+
+<!--
+When the code is uploaded, replace the "Work in progress" note with:
+
+## Run locally
+
 ```bash
-git clone https://github.com/bekzat778/PaperFinder.git
-cd PaperFinder
+git clone https://github.com/bekzat778/EduSearch.git
+cd EduSearch
 npm install
 npm run dev
+```
+
+and add your real live-demo link here.
+-->
